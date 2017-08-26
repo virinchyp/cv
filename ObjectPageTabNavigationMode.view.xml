@@ -9,12 +9,22 @@
 		   xmlns:connections="sap.uxap.sample.SharedBlocks.connections"
 		   controllerName="sap.uxap.sample.ObjectPageTabNavigationMode.ObjectPageTabNavigationMode"
 		   height="100%">
-	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true" useIconTabBar="true" showTitleInHeaderContent="true">
+	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="false" useIconTabBar="true" showTitleInHeaderContent="true"
+ subSectionLayout="TitleOnLeft"
+					  showHeaderContent="true" >
 		<headerTitle>
-			<ObjectPageHeader objectImageURI="https://i.imgur.com/OjyUdYZ.jpg"
-							  objectTitle="Virinchy Panangipalli"
+			
+				<ObjectPageHeader objectImageURI="https://i.imgur.com/OjyUdYZ.jpg"
 							  objectImageShape="Circle"
-							  objectSubtitle="Loves SAP UX, Mobile and Cloud">
+							 objectTitle="Virinchy Panangipalli"
+							   objectSubtitle="Loves SAP UX, Mobile and Cloud"
+							  objectImageAlt="Virinchy Panangipalli - Loves SAP UX, Mobile and Cloud"
+							  id="ObjectPageLayoutHeaderTitle"
+							  isObjectIconAlwaysVisible="false"
+							  isObjectTitleAlwaysVisible="false"
+							  isObjectSubtitleAlwaysVisible="false"
+							  isActionAreaAlwaysVisible="true"
+							  showPlaceholder="true">
 				<actions>
 					<ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" type="Emphasized"/>
 					<ObjectPageHeaderActionButton icon="sap-icon://show" text="show state" type="Emphasized"/>
@@ -150,5 +160,9 @@
 				</subSections>
 			</ObjectPageSection>
 		</sections>
+		<footer>
+				<m:Button type="Default" text="Download CV"/>
+				<m:Button type="Accept" text="Call Him Now"/>
+				</footer>
 	</ObjectPageLayout>
 </core:View>
