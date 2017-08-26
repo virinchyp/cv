@@ -39,6 +39,7 @@
 			<layout:HorizontalLayout>
 				<m:Image height="20px" width="20px" src="http://www.nteaa.org/wp-content/uploads/2009/08/LinkedIn_Icon.png" press="pressLinkedin"></m:Image>
 				<m:Image height="20px" width="20px" src="http://icons.iconarchive.com/icons/xenatt/minimalism/256/App-Twitter-icon.png" press="pressTwitter"></m:Image>
+					<m:Image height="20px" width="20px" src="https://www.anyline.io/wp-content/uploads/2016/01/196635_10150113738941016_6112797_n-180x180.jpg" press="pressSCN"></m:Image>
 			</layout:HorizontalLayout>
 
 		<!--	<layout:VerticalLayout>
