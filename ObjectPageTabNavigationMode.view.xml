@@ -60,7 +60,7 @@
 		</headerContent>
 
 		<sections>
-			<ObjectPageSection id="goals" title="2014 Goals Plan">
+			<ObjectPageSection id="goals" title="About Me">
 			<subSections>
 				<ObjectPageSubSection id="goalsSS1" title="">
 					<blocks>
@@ -70,7 +70,7 @@
 			</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection id="personal" title="Personal">
+			<ObjectPageSection id="personal" title="Work Experience">
 				<subSections>
 					<ObjectPageSubSection id="personalSS1" title="Connect">
 						<blocks>
@@ -92,7 +92,7 @@
 				</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection id="employment" title="Employment">
+			<ObjectPageSection id="employment" title="Portfolio">
 				<subSections>
 					<ObjectPageSubSection id="employmentSS1" title="Job information">
 						<blocks>
@@ -134,7 +134,7 @@
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
-			<ObjectPageSection id="connections" title="Connections">
+			<ObjectPageSection id="connections" title="Testimonials">
 				<subSections>
 					<ObjectPageSubSection id="connectionsSS1" title="">
 						<blocks>
