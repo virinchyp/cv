@@ -11,10 +11,10 @@
 		   height="100%">
 	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true" useIconTabBar="true" showTitleInHeaderContent="true">
 		<headerTitle>
-			<ObjectPageHeader objectImageURI="https://i.imgur.com/OjyUdYZ.jpg"
-							  objectTitle="Virinchy Panangipalli"
+			<ObjectPageHeader objectImageURI="./test-resources/sap/uxap/images/imageID_275314.png"
+							  objectTitle="Denise Smith"
 							  objectImageShape="Circle"
-							  objectSubtitle="Loves SAP UX, Mobile and Cloud">
+							  objectSubtitle="Senior UI Developer">
 				<actions>
 					<ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" type="Emphasized"/>
 					<ObjectPageHeaderActionButton icon="sap-icon://show" text="show state" type="Emphasized"/>
@@ -24,13 +24,13 @@
 
 		<headerContent>
 			<layout:VerticalLayout>
-				<m:Link text="+61 470380984"/>
-				<m:Link text="virinchyp@gmail.com"/>
+				<m:Link text="+33 6 4512 5158"/>
+				<m:Link text="DeniseSmith@sap.com"/>
 			</layout:VerticalLayout>
 
 			<layout:HorizontalLayout>
-				<m:Image height="20px" width="20px" src="http://www.nteaa.org/wp-content/uploads/2009/08/LinkedIn_Icon.png" press="pressLinkedin"></m:Image>
-				<m:Image height="20px" width="20px" src="http://icons.iconarchive.com/icons/xenatt/minimalism/256/App-Twitter-icon.png" press="pressTwitter"></m:Image>
+				<m:Image src="./test-resources/sap/uxap/images/linkedin.png"></m:Image>
+				<m:Image src="./test-resources/sap/uxap/images/Twitter.png"></m:Image>
 			</layout:HorizontalLayout>
 
 			<layout:VerticalLayout>

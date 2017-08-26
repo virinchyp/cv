@@ -30,13 +30,6 @@ sap.ui.define([
 				this._oSplitContainer.setMode("HideMode");
 				this._oSplitContainer.hideMaster();
 			}
-		},
-		
-		pressLinkedin: function () {
-			sap.m.URLHelper.redirect("https://au.linkedin.com/in/virinchy", true);
-		},
-		pressTwitter: function () {
-			sap.m.URLHelper.redirect("https://twitter.com/virinchyp", true);
 		}
 	});
 }, true);
