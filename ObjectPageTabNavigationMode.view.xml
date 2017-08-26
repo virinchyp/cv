@@ -20,11 +20,12 @@
 							   objectSubtitle="Loves SAP UX, Mobile and Cloud"
 							  objectImageAlt="Virinchy Panangipalli - Loves SAP UX, Mobile and Cloud"
 							  id="ObjectPageLayoutHeaderTitle"
+							
 							  isObjectIconAlwaysVisible="false"
 							  isObjectTitleAlwaysVisible="false"
 							  isObjectSubtitleAlwaysVisible="false"
-							  isActionAreaAlwaysVisible="true"
-							  showPlaceholder="true">
+							  isActionAreaAlwaysVisible="false"
+							  showPlaceholder="false">
 			
 			</ObjectPageHeader>
 		</headerTitle>
