@@ -25,10 +25,7 @@
 							  isObjectSubtitleAlwaysVisible="false"
 							  isActionAreaAlwaysVisible="true"
 							  showPlaceholder="true">
-				<actions>
-					<ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" type="Emphasized"/>
-					<ObjectPageHeaderActionButton icon="sap-icon://show" text="show state" type="Emphasized"/>
-				</actions>
+			
 			</ObjectPageHeader>
 		</headerTitle>
 
@@ -43,7 +40,7 @@
 				<m:Image height="20px" width="20px" src="http://icons.iconarchive.com/icons/xenatt/minimalism/256/App-Twitter-icon.png" press="pressTwitter"></m:Image>
 			</layout:HorizontalLayout>
 
-			<layout:VerticalLayout>
+		<!--	<layout:VerticalLayout>
 				<m:Label text="Hello! I am Tim and I use UxAP"/>
 				<m:VBox height="63px">
 					<m:Label text="Achieved goals"/>
@@ -57,7 +54,7 @@
 
 			<layout:VerticalLayout>
 				<m:Label text="San Jose, USA"/>
-			</layout:VerticalLayout>
+			</layout:VerticalLayout>-->
 		</headerContent>
 
 		<sections>
