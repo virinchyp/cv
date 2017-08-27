@@ -6,15 +6,12 @@
 		<layout:VerticalLayout>
 			<Label text="A Bit of info" design="Bold"/>
 			<Text text=" Virinchy Panangipalli is a passionate technology consultant having extensive experience in delivering end-to-end SAP Mobile, Fiori solutions in both ECC and HANA environments.">
-			<link>
-					<Link text="here"
-						target="_blank"
-						href="https://github.com/virinchyp/cv" />
-				</link>
+		
 			</Text>
 			<Text text=" "/>
 
 			<Text text=" An Entrepreneur at Heart with complete hands on technical skills he loves to take up challenges decoding complex business requirements to feasible technical solutions. "/>
+		<Text text=" "/>
 		<Text text=" Genuinely loves SAP Products and contributes outside work to SAP Community."/>
 	
 			<!--			<Label text="Get trained in development management direction" design="Bold"/>
