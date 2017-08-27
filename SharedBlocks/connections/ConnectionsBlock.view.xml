@@ -10,9 +10,12 @@
 					</Image>
 					<VBox>
 						<Text class="sapUiSmallMargin"
-							text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
-						<Text text="{0/Description}"/>
-					</VBox>
+							text="Virinchy is passionate and committed about any work he takes on."/>
+						<Text text="Has excellent knowledge in SMP SDK and frameworks and has done commendable job in creating a good set of applications and have hosted them on the SAP store."/>
+<Text text="The go-getter he is, he has been constantly updating himself to the market demands and dynamics and has delivered excellent results."/>
+<Text text="							 He has also been very active in the SCN contributing to the community at large. Good resource to have in a customer focused, result-oriented team. Wish him all the best."/>
+
+						</VBox>
 					<!--	<Image src="{1/ContactPicUrl}" width="100%">
 				<layoutData>
 					<l:GridData
