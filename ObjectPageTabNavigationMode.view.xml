@@ -158,6 +158,32 @@
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
+			
+				<ObjectPageSection id="scncontributions" title="SAP Community Contributions">
+				<subSections>
+					<ObjectPageSubSection id="scncontributions1" title="">
+						<blocks>
+							<connections:ConnectionsBlock id="scncontributionsBlock">
+								<connections:mappings>
+									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"
+												  externalPath="/Employee/0"/>
+									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"
+												  externalPath="/Employee/1"/>
+									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3"
+												  externalPath="/Employee/2"/>
+									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4"
+												  externalPath="/Employee/3"/>
+									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5"
+												  externalPath="/Employee/4"/>
+									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"
+												  externalPath="/Employee/5"/>
+								</connections:mappings>
+							</connections:ConnectionsBlock>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
 		</sections>
 		<footer>
 				<m:Button type="Default" text="Download CV"/>
