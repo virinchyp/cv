@@ -8,50 +8,16 @@
 							<l:GridData span="L3 M3 S8" linebreakL="true" linebreakM="true" linebreakS="true"/>
 						</layoutData>
 					</Image>
-					<VBox>
-						<Text class="sapUiSmallMargin"
-							text="Virinchy is passionate and committed about any work he takes on."/>
-						<Text text="Has excellent knowledge in SMP SDK and frameworks and has done commendable job in creating a good set of applications and have hosted them on the SAP store."/>
-<Text text="The go-getter he is, he has been constantly updating himself to the market demands and dynamics and has delivered excellent results."/>
-<Text text="							 He has also been very active in the SCN contributing to the community at large. Good resource to have in a customer focused, result-oriented team. Wish him all the best."/>
-
-						</VBox>
-					<!--	<Image src="{1/ContactPicUrl}" width="100%">
-				<layoutData>
-					<l:GridData
-						span="L3 M3 S8"
-						linebreakL="true"
-						linebreakM="true"
-						linebreakS="true" />
-				</layoutData>
-			</Image>
-			<VBox>
-										<Text class="sapUiSmallMargin" text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
-
-				<Text text="{1/Description}" />
-			</VBox>
-			<Image src="{2/ContactPicUrl}" width="100%">
-				<layoutData>
-					<l:GridData
-						span="L3 M3 S8"
-						linebreakL="true"
-						linebreakM="true"
-						linebreakS="true" />
-				</layoutData>
-			</Image>
-			<VBox>
-										<Text class="sapUiSmallMargin" text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
-				<Text text="{2/Description}" />
-			</VBox>-->
+					<VBox >
+						<Text text="Virinchy P was recognized as the SAP Community Network (SCN) Member of the Month in February 2015."/>
+						<Text text="His expertise in SAP mobile technologies is well-respected in the SCN community, where is a valued member and contributor."/>
+						<Text
+							text=" He makes active contributions in numerous SCN spaces, posting informative blogs and answering questions posted by SCN colleagues"/>
+						<Text text=""/>
+						<Text text="-Caroleigh Deneen - UX Designer, Information Architect and Gamification Consultant - SAP"/>
+					</VBox>
 				</l:content>
 			</l:Grid>
-			<l:VerticalLayout>
-				<Button text="Default" press="onPress" ariaDescribedBy="defaultButtonDescription genericButtonDescription">
-					<layoutData>
-						<FlexItemData growFactor="1"/>
-					</layoutData>
-				</Button>
-			</l:VerticalLayout>
 			<l:Grid binding="{/PersonCollection}" class="sapUiSmallMarginTop" hSpacing="2" defaultSpan="L6 M6 S10">
 				<l:content>
 					<Image src="{0/ContactPicUrl}" width="100%">
@@ -59,17 +25,40 @@
 							<l:GridData span="L3 M3 S8" linebreakL="true" linebreakM="true" linebreakS="true"/>
 						</layoutData>
 					</Image>
-					<VBox>
-						<Text class="sapUiSmallMargin"
-							text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
-						<Text text="{0/Description}"/>
+					<VBox >
+						<Text text="Virinchy is passionate and committed about any work he takes on."/>
+						<Text
+							text="Has excellent knowledge in SMP SDK and frameworks and has done commendable job in creating a good set of applications and have hosted them on the SAP store."/>
+						<Text
+							text="The go-getter he is, he has been constantly updating himself to the market demands and dynamics and has delivered excellent results."/>
+						<Text
+							text=" He has also been very active in the SCN contributing to the community at large. Good resource to have in a customer focused, result-oriented team. Wish him all the best."/>
+						<Text text=""/>
+						<Text text="-Srinivas Nagarajan - Ex Director at WiseMen Solutions"/>
 					</VBox>
 				</l:content>
 			</l:Grid>
-			<Text class="sapUiSmallMargin"
-				text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
-			<Text class="sapUiSmallMargin"
-				text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
+			
+				<l:Grid binding="{/PersonCollection}" class="sapUiSmallMarginTop" hSpacing="2" defaultSpan="L6 M6 S10">
+				<l:content>
+					<Image src="{0/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData span="L3 M3 S8" linebreakL="true" linebreakM="true" linebreakS="true"/>
+						</layoutData>
+					</Image>
+					
+					
+					<VBox >
+						<Text text="Virinchy is a very creative and 'highly passionate consultant'"/>
+						<Text
+							text="In the short time that I worked with him, I was very impressed with his ability to quickly learn SAP’s latest technologies."/>
+						<Text
+							text="I would highly recommend having Virinchy on any team and looking forward to working with him again."/>
+						<Text text=""/>
+						<Text text="-Midhun VP - Global Customer Engagements at SAP"/>
+					</VBox>
+				</l:content>
+			</l:Grid>
 		</pages>
 	</Carousel>
 </mvc:View>
