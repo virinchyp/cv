@@ -4,7 +4,7 @@
 	xmlns:connections="sap.uxap.sample.SharedBlocks.connections"
 		xmlns:scncontributions="sap.uxap.sample.SharedBlocks.scncontributions"
 	controllerName="sap.uxap.sample.ObjectPageTabNavigationMode.ObjectPageTabNavigationMode" height="100%">
-	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="false" useIconTabBar="true" showTitleInHeaderContent="true"
+	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true" useIconTabBar="true" showTitleInHeaderContent="true"
 		subSectionLayout="TitleOnLeft" showHeaderContent="true" showFooter="true">
 		<headerTitle>
 			<ObjectPageHeader objectImageURI="https://i.imgur.com/OjyUdYZ.jpg" objectImageShape="Circle" objectSubtitle="Loves SAP UX, Mobile and Cloud"
