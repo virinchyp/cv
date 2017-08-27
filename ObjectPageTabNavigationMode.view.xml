@@ -96,8 +96,8 @@
 				<subSections>
 					<ObjectPageSubSection id="Portfolio1" title="">
 						<blocks>
-							<connections:ConnectionsBlock id="Portfolioblock">
-								<connections:mappings>
+							<employment:BlockJobInfoPart1 id="Portfolioblock">
+								<employment:mappings>
 									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"
 												  externalPath="/Employee/0"/>
 									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"
@@ -110,8 +110,8 @@
 												  externalPath="/Employee/4"/>
 									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"
 												  externalPath="/Employee/5"/>
-								</connections:mappings>
-							</connections:ConnectionsBlock>
+								</employment:mappings>
+							</employment:BlockJobInfoPart1>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
