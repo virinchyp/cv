@@ -4,9 +4,8 @@
 		hSpacing="2"
 		defaultSpan="L6 M6 S10">
 		<l:content>
-			<html:iframe target='_top' src="" id ="attachmentframe" height="100%" width="100%">
-
-</html:iframe>
+			<html:iframe src="https://www.youtube.com/watch?v=FSXnEG1OxdQ" height="100%" width="100%"/>
+	
 				<layoutData>
 					<l:GridData
 						span="L3 M3 S8"
