@@ -1,168 +1,38 @@
-<core:View xmlns:core="sap.ui.core" xmlns="sap.uxap" xmlns:layout="sap.ui.layout" xmlns:m="sap.m"
-	xmlns:sample="sap.uxap.sample.SharedBlocks" xmlns:goals="sap.uxap.sample.SharedBlocks.goals"
-	xmlns:personal="sap.uxap.sample.SharedBlocks.personal" xmlns:employment="sap.uxap.sample.SharedBlocks.employment"
-	xmlns:connections="sap.uxap.sample.SharedBlocks.connections"
-		xmlns:scncontributions="sap.uxap.sample.SharedBlocks.scncontributions"
-	controllerName="sap.uxap.sample.ObjectPageTabNavigationMode.ObjectPageTabNavigationMode" height="100%">
-	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true" useIconTabBar="true" showTitleInHeaderContent="true"
-		subSectionLayout="TitleOnLeft" showHeaderContent="true" showFooter="true">
-		<headerTitle>
-			<ObjectPageHeader objectImageURI="https://i.imgur.com/OjyUdYZ.jpg" objectImageShape="Circle" objectSubtitle="Loves SAP UX, Mobile and Cloud"
-				objectImageAlt="Virinchy Panangipalli - Loves SAP UX, Mobile and Cloud" id="ObjectPageLayoutHeaderTitle" isObjectIconAlwaysVisible="false"
-				isObjectTitleAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isActionAreaAlwaysVisible="false" showPlaceholder="false"></ObjectPageHeader>
-		</headerTitle>
-		<headerContent>
-			<layout:VerticalLayout>
-				<m:Link text="+61 470380984"/>
-				<m:Link text="virinchyp@gmail.com"/>
-			</layout:VerticalLayout>
-			<layout:HorizontalLayout>
-				<m:Image height="20px" width="20px" src="http://www.nteaa.org/wp-content/uploads/2009/08/LinkedIn_Icon.png" press="pressLinkedin"></m:Image>
-				<m:Image height="20px" width="20px" src="http://icons.iconarchive.com/icons/xenatt/minimalism/256/App-Twitter-icon.png" press="pressTwitter"></m:Image>
-				<!--				<m:Image height="20px" width="20px" src="https://www.anyline.io/wp-content/uploads/2016/01/196635_10150113738941016_6112797_n-180x180.jpg" press="pressSCN"></m:Image>-->
-			</layout:HorizontalLayout>
-			<!--	<layout:VerticalLayout>
-				<m:Label text="Hello! I am Tim and I use UxAP"/>
-				<m:VBox height="63px">
-					<m:Label text="Achieved goals"/>
-					<m:ProgressIndicator
-							percentValue="30"
-							displayValue="30%"
-							showValue="true"
-							state="None"/>
-				</m:VBox>
-			</layout:VerticalLayout>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:forms="sap.ui.layout.form" xmlns="sap.m">
+	<forms:SimpleForm
+			maxContainerCols="1"
+			layout="ResponsiveGridLayout"
+			width="100%">
+		<layout:VerticalLayout>
+			<Label text="A Bit of info" design="Bold"/>
+			<Text text=" Virinchy Panangipalli is a passionate technology consultant having extensive experience in delivering end-to-end SAP Mobile, Fiori solutions in both ECC and HANA environments.">
+		
+			</Text>
+			<Text text=" "/>
 
-			<layout:VerticalLayout>
-				<m:Label text="San Jose, USA"/>
-			</layout:VerticalLayout>-->
-		</headerContent>
-		<sections>
-			<ObjectPageSection id="goals" title="About Me">
-				<subSections>
-					<ObjectPageSubSection id="goalsSS1" title="">
-						<blocks>
-							<goals:GoalsBlock id="goalsblock"/>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-			<ObjectPageSection id="personal" title="Work Experience">
-				<subSections>
-					<ObjectPageSubSection id="personalSS1" title="Transport for NSW">
-						<blocks>
-							<personal:BlockPhoneNumber id="phone"/>
-							<personal:BlockSocial id="social"/>
-							<personal:BlockAdresses id="adresses"/>
-							<personal:BlockMailing id="mailing" columnLayout="1"/>
-						</blocks>
-					</ObjectPageSubSection>
-					<ObjectPageSubSection id="personalSS2" title="Wise Men Solutions">
-						<blocks>
-							<personal:PersonalBlockPart1 id="part1" columnLayout="1"/>
-						</blocks>
-						<moreBlocks>
-							<personal:PersonalBlockPart2 id="part2" columnLayout="1"/>
-						</moreBlocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-			<ObjectPageSection id="Portfolio" title="Portfolio">
-				<subSections>
-					<ObjectPageSubSection id="Portfolio1" title="">
-						<blocks>
-							<employment:BlockJobInfoPart1 id="Portfolioblock">
-								<employment:mappings>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1" externalPath="/Employee/0"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2" externalPath="/Employee/1"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3" externalPath="/Employee/2"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4" externalPath="/Employee/3"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5" externalPath="/Employee/4"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6" externalPath="/Employee/5"/>
-								</employment:mappings>
-							</employment:BlockJobInfoPart1>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-			<!--	<ObjectPageSection id="employment" title="Portfolio">
-				<subSections>
-					<ObjectPageSubSection id="employmentSS1" title="Job information">
-						<blocks>
-							<employment:BlockJobInfoPart1 id="jobinfopart1"/>
-							<employment:BlockJobInfoPart2 id="jobinfopart2"/>
-							<employment:BlockJobInfoPart3 id="jobinfopart3"/>
-						</blocks>
-					</ObjectPageSubSection>
+			<Text text=" An Entrepreneur at Heart with complete hands on technical skills he loves to take up challenges decoding complex business requirements to feasible technical solutions. "/>
+		<Text text=" "/>
+		<Text text=" Genuinely loves SAP Products and contributes outside work to SAP Community."/>
+	
+			<!--			<Label text="Get trained in development management direction" design="Bold"/>
+			<Text text="Due Nov 21"/>
+			<Text text=" "/>
+			<Label text="Mentor junior developers" design="Bold"/>
+			<Text text="Due Dec 31 Cascaded"/> -->
+		</layout:VerticalLayout>
+	
+	</forms:SimpleForm>
 
-					<ObjectPageSubSection id="employmentSS2" title="Employee Details" mode="Collapsed">
-						<blocks>
-							<employment:BlockEmpDetailPart1 id="empdetailpart1" columnLayout="1"/>
-						</blocks>
-						<moreBlocks>
-							<employment:BlockEmpDetailPart2 id="empdetailpart2" columnLayout="1"/>
-							<employment:BlockEmpDetailPart3 id="empdetailpart3" columnLayout="1"/>
-						</moreBlocks>
-					</ObjectPageSubSection>
-
-					<ObjectPageSubSection id="employmentSS3" title="Job Relationship" mode="Collapsed">
-						<blocks>
-							<employment:EmploymentBlockJob id="employmentblockjob" showSubSectionMore="true">
-								<employment:mappings>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"
-												  externalPath="/Employee/0"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"
-												  externalPath="/Employee/1"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3"
-												  externalPath="/Employee/2"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4"
-												  externalPath="/Employee/3"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5"
-												  externalPath="/Employee/4"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"
-												  externalPath="/Employee/5"/>
-								</employment:mappings>
-							</employment:EmploymentBlockJob>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection> -->
-			<ObjectPageSection id="connections" title="Testimonials">
-				<subSections>
-					<ObjectPageSubSection id="connectionsSS1" title="">
-						<blocks>
-							<connections:ConnectionsBlock id="connectionsblock">
-								<connections:mappings>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1" externalPath="/Employee/0"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2" externalPath="/Employee/1"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3" externalPath="/Employee/2"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4" externalPath="/Employee/3"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5" externalPath="/Employee/4"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6" externalPath="/Employee/5"/>
-								</connections:mappings>
-							</connections:ConnectionsBlock>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-			<ObjectPageSection id="scncontributions" title="SAP Community Contributions">
-				<subSections>
-					<ObjectPageSubSection id="scncontributions1" title="">
-						<blocks>
-							<scncontributions:scncontributions id="scncontributionsBlock">
-								<scncontributions:mappings>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1" externalPath="/Employee/0"/>
-									
-								</scncontributions:mappings>
-							</scncontributions:scncontributions>
-						</blocks>
-					</ObjectPageSubSection>
-				</subSections>
-			</ObjectPageSection>
-		</sections>
-		<footer>
-			<m:Button type="Default" text="Download CV"/>
-			<m:Button type="Accept" text="Call Him Now"/>
-		</footer>
-	</ObjectPageLayout>
-</core:View>
+			<MessageStrip
+				text="Software World is Open Source, and so is this Website. Fork it "
+				showIcon="true"
+				showCloseButton="true"
+				class="sapUiMediumMarginBottom">
+				<link>
+					<Link text="here"
+						target="_blank"
+						href="https://github.com/virinchyp/cv" />
+				</link>
+			</MessageStrip>
+			
+ </mvc:View>
