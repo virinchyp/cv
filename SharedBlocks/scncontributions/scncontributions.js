@@ -5,11 +5,11 @@ sap.ui.define(['sap/uxap/BlockBase'], function (BlockBase) {
 		metadata: {
 			views: {
 				Collapsed: {
-					viewName: "sap.uxap.sample.SharedBlocks.goals.scncontributions",
+					viewName: "sap.uxap.sample.SharedBlocks.scncontributions.scncontributions",
 					type: "XML"
 				},
 				Expanded: {
-					viewName: "sap.uxap.sample.SharedBlocks.goals.scncontributions",
+					viewName: "sap.uxap.sample.SharedBlocks.scncontributions.scncontributions",
 					type: "XML"
 				}
 			}
