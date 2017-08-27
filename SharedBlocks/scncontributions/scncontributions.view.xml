@@ -1,24 +1,20 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml">
-		
-		<l:Grid
-		class="sapUiSmallMarginTop"
-		hSpacing="2"
-		defaultSpan="L6 M6 S10">
-		<l:content>
-			
-				<layoutData>
-					<l:GridData
-						span="L3 M3 S8"
-						linebreakL="true"
-						linebreakM="true"
-						linebreakS="true" />
-				</layoutData>
-		
-			<VBox>
-				<Text text="{0/FirstName} {0/LastName}" class="nameTitle" />
-				<Text text="{0/Description}" />
-			</VBox>
-			<Image src="{1/ContactPicUrl}" width="100%">
+	<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<Carousel class="sapUiContentPadding">
+		<pages>
+			<l:Grid binding="{/PersonCollection}" class="sapUiSmallMarginTop" hSpacing="2" defaultSpan="L6 M6 S10">
+				<l:content>
+
+			<html:iframe src="https://www.youtube.com/v/FSXnEG1OxdQ" height="100%" width="100%"/>
+						<layoutData>
+							<l:GridData span="L3 M3 S8" linebreakL="true" linebreakM="true" linebreakS="true"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<Text class="sapUiSmallMargin"
+							text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
+						<Text text="{0/Description}"/>
+					</VBox>
+					<!--	<Image src="{1/ContactPicUrl}" width="100%">
 				<layoutData>
 					<l:GridData
 						span="L3 M3 S8"
@@ -28,7 +24,8 @@
 				</layoutData>
 			</Image>
 			<VBox>
-				<Text text="{1/FirstName} {1/LastName}" class="nameTitle" />
+										<Text class="sapUiSmallMargin" text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
+
 				<Text text="{1/Description}" />
 			</VBox>
 			<Image src="{2/ContactPicUrl}" width="100%">
@@ -41,22 +38,36 @@
 				</layoutData>
 			</Image>
 			<VBox>
-				<Text text="{2/FirstName} {2/LastName}" class="nameTitle" />
+										<Text class="sapUiSmallMargin" text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
 				<Text text="{2/Description}" />
-			</VBox>
-		</l:content>
-	</l:Grid>
-
-			<MessageStrip
-				text="Software World is Open Source, and so is this Website. Fork it "
-				showIcon="true"
-				showCloseButton="true"
-				class="sapUiMediumMarginBottom">
-				<link>
-					<Link text="here"
-						target="_blank"
-						href="https://github.com/virinchyp/cv" />
-				</link>
-			</MessageStrip>
-			
- </mvc:View>
+			</VBox>-->
+				</l:content>
+			</l:Grid>
+			<l:VerticalLayout>
+				<Button text="Default" press="onPress" ariaDescribedBy="defaultButtonDescription genericButtonDescription">
+					<layoutData>
+						<FlexItemData growFactor="1"/>
+					</layoutData>
+				</Button>
+			</l:VerticalLayout>
+			<l:Grid binding="{/PersonCollection}" class="sapUiSmallMarginTop" hSpacing="2" defaultSpan="L6 M6 S10">
+				<l:content>
+					<Image src="{0/ContactPicUrl}" width="100%">
+						<layoutData>
+							<l:GridData span="L3 M3 S8" linebreakL="true" linebreakM="true" linebreakS="true"/>
+						</layoutData>
+					</Image>
+					<VBox>
+						<Text class="sapUiSmallMargin"
+							text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
+						<Text text="{0/Description}"/>
+					</VBox>
+				</l:content>
+			</l:Grid>
+			<Text class="sapUiSmallMargin"
+				text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
+			<Text class="sapUiSmallMargin"
+				text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"/>
+		</pages>
+	</Carousel>
+</mvc:View>
