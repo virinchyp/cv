@@ -7,11 +7,11 @@
 			<Label text="A Bit of info" design="Bold"/>
 			<Text text=" Virinchy Panangipalli is a passionate technology consultant having extensive experience in delivering end-to-end SAP Mobile, Fiori solutions in both ECC and HANA environments. An Entrepreneur at Heart with complete hands on technical skills he loves to take up challenges decoding complex business requirements to feasible technical solutions. Genuinely loves SAP Products and contributes outside work to SAP Community. "/>
 			<Text text=" "/>
-			<Label text="Get trained in development management direction" design="Bold"/>
+<!--			<Label text="Get trained in development management direction" design="Bold"/>
 			<Text text="Due Nov 21"/>
 			<Text text=" "/>
 			<Label text="Mentor junior developers" design="Bold"/>
-			<Text text="Due Dec 31 Cascaded"/>
+			<Text text="Due Dec 31 Cascaded"/> -->
 		</layout:VerticalLayout>
 	
 	</forms:SimpleForm>
