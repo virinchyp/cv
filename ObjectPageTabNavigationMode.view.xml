@@ -16,7 +16,7 @@
 			
 				<ObjectPageHeader objectImageURI="https://i.imgur.com/OjyUdYZ.jpg"
 							  objectImageShape="Circle"
-							 objectTitle="Virinchy Panangipalli"
+							
 							   objectSubtitle="Loves SAP UX, Mobile and Cloud"
 							  objectImageAlt="Virinchy Panangipalli - Loves SAP UX, Mobile and Cloud"
 							  id="ObjectPageLayoutHeaderTitle"
