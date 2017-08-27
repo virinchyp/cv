@@ -152,11 +152,7 @@
 							<scncontributions:scncontributions id="scncontributionsBlock">
 								<scncontributions:mappings>
 									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1" externalPath="/Employee/0"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2" externalPath="/Employee/1"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3" externalPath="/Employee/2"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4" externalPath="/Employee/3"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5" externalPath="/Employee/4"/>
-									<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6" externalPath="/Employee/5"/>
+									
 								</scncontributions:mappings>
 							</scncontributions:scncontributions>
 						</blocks>
