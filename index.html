@@ -1,12 +1,147 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
+ 
+            <head>
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                        <meta charset="UTF-8">
+ 
+                        <title>ODATA_TEST</title>
+ 
+                        <script id="sap-ui-bootstrap"
+                                    src="../../resources/sap-ui-core.js"
+                                    data-sap-ui-libs="sap.m"
+                                    data-sap-ui-compatVersion="edge"
+                                    data-sap-ui-resourceroots='{"ODATA_TestODATA_TEST": ""}'>
+                        </script>
+                       
+                                    <style type="text/css">
+    .sidebar    {
+        width:300px;
+        height:300px;
+        /*border:1px solid red; */
+       
+       
+    }
+    .tapfull    {
+        display:  table;
+        width:500px;
+        /*border: 1px solid red;*/
+        /*border-spacing:5px;/*cellspacing:poor IE support for  this
+       /* border-collapse:separate;*/
+    }
+    .tapheader    {
+        display:  table;
+        width:100%;
+        border: 1px solid red;
+        /*border-spacing:5px;/*cellspacing:poor IE support for  this
+       /* border-collapse:separate;*/
+    }
+    .tapwifi    {       
+        width:25px;
+        padding-left:45px;
+      
+        /*border-spacing:5px;/*cellspacing:poor IE support for  this
+       /* border-collapse:separate;*/
+    }
+    .Deloitte    {  
+            width: 50%;
+            float: right;
+        /*padding-left:50px;*/
+      
+        /*border-spacing:5px;/*cellspacing:poor IE support for  this
+       /* border-collapse:separate;*/
+    }
+   
+    .tapbeer    {
+        width:auto;
+        /*border-spacing:5px;/*cellspacing:poor IE support for  this
+       /* border-collapse:separate;*/
+    }
+  #map {
+        height: 400px;
+        width: 400px;       
+      }
+       /*Optional: Makes the sample page fill the window. */
+      /*td {*/
+      /*  height: 100%;*/
+      /*  margin: 0;*/
+      /*  padding: 0;*/
+      }   
+    
+</style>
+<script>
+                                          var map;
+                                          function initMap() {
+                                             var uluru = {lat: -33.866289, lng: 151.206393};
+                                            var map = new google.maps.Map(document.getElementById('map'), {
+                                              zoom: 11,
+                                              center: uluru
+                                            });
+                                            var marker = new google.maps.Marker({
+                                              position: uluru,
+                                              map: map
+                                            });
+                                          }
+                                        </script>
+                                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN-R_hf5TCbBWPFZ_po_em_ihy4dkfz8Q&callback=initMap" async defer></script>
+                                   
+ 
+                        <link rel="stylesheet" type="text/css" href="css/style.css">
+                        <script type="text/javascript" src="codebird.js"></script>
+                        <script>
+                                    sap.ui.getCore().attachInit(function() {
+                                                new sap.m.Shell({
+                                                            app: new sap.ui.core.ComponentContainer({
+                                                                        height : "10%",
+                                                                        name : "ODATA_TestODATA_TEST"
+                                                            })
+                                                }).placeAt("content");
+                                    });
+                        </script>
+                <script type="text/javascript">
+                  function tend() {
+                    document.getElementById('my').style.visibility='visible';
+                  }
+                  function tn() {
+                    document.getElementById('my').style.visibility='hidden';
+                  }
+                </script>                 
+                       
+            </head>
+ 
+            <body class="sapUiBody" onload="initMap()">
+                        <header>
+                                    <!--<table>-->
+                                    <!-- <tr>-->
+                                    <!--    <td><img src="SmartBeerTap.jpg" height="100px" width="500px" ></td>-->
+                                    <!--    <td><img src="Deloitte.JPG">  </td>-->
+                                    <!--  </tr>-->
+                                    <!--</table>-->
+                                    <!--</header> -->
+                                    <!--<table>-->
+                                    <!--  <tr>-->
+                                    <!--      <td>-->
+                                    <!--      <div class="sidebar">-->
+                             <a class="twitter-timeline" data-width="220" data-height="300" data-dnt="true" data-theme="light" data-link-color="#8eca00" href="https://twitter.com/CoP_Smart_tap">Tweets by CoP_Smart_tap</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+     <!--                         </div>-->
+     <!--                         </td>-->
+     <!--                         <td>-->
+     <!--                         <div id="map"></div>-->
+            <!--                  </td>-->
+                                      <!--</tr>-->
+                                      <!--</table>-->
+                                    <!--<footer>-->
+                                    <!--      <h1>-->
+                                    <!--                  <div class="tapfull">-->
+                                    <!--                                          <img src ="gif_animated.gif" id="my" style="visibility:hidden"/>-->
+                                    <!--                              <div class="tapwifi">   -->
+                                    <!--                                          <img src="tap_img.jpg" height="100px" width="100px">-->
+                                    <!--                              </div>-->
+                                    <!--                  </div>-->
+                                    <!--      </h1>-->
+                                    <!--</footer>-->
+               
+                        <!--<div id="content"></div>-->
+            </body>
+ 
 </html>
