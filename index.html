@@ -7,33 +7,36 @@
  
                         <title>ODATA_TEST</title>
  
+                       
+                       
                                     <style type="text/css">
     .sidebar    {
-        width:300px;
+        width:220px;
         height:300px;
-        
+   
+       
+       
     }
     .tapfull    {
         display:  table;
         width:500px;
-    
+ 
     }
     .tapheader    {
         display:  table;
         width:100%;
         border: 1px solid red;
-    
+   
     }
     .tapwifi    {       
         width:25px;
         padding-left:45px;
-      
-     
+ 
     }
     .Deloitte    {  
             width: 50%;
             float: right;
-     
+ 
     }
    
     .tapbeer    {
@@ -42,29 +45,14 @@
     }
   #map {
         height: 400px;
-       width: 400px;       
+        width: 400px;       
       }
-      
+ 
       }   
     
 </style>
-<script>
-                                          var map;
-                                          function initMap() {
-                                             var uluru = {lat: -33.866289, lng: 151.206393};
-                                            var map = new google.maps.Map(document.getElementById('map'), {
-                                              zoom: 11,
-                                              center: uluru
-                                            });
-                                            var marker = new google.maps.Marker({
-                                              position: uluru,
-                                              map: map
-                                            });
-                                          }
-                                        </script>
-                                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN-R_hf5TCbBWPFZ_po_em_ihy4dkfz8Q&callback=initMap" async defer></script>
-                                   
- 
+
+                    
                 <script type="text/javascript">
                   function tend() {
                     document.getElementById('my').style.visibility='visible';
@@ -78,7 +66,8 @@
  
             <body class="sapUiBody" onload="initMap()">
                         <header>
-                   
+                               <a class="twitter-timeline" data-width="220" data-height="300" data-dnt="true" data-theme="light" data-link-color="#8eca00" href="https://twitter.com/CoP_Smart_tap">Tweets by CoP_Smart_tap</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ 
             </body>
  
 </html>
