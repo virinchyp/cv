@@ -7,13 +7,6 @@
  
                         <title>ODATA_TEST</title>
  
-                        <script id="sap-ui-bootstrap"
-                                    src="../../resources/sap-ui-core.js"
-                                    data-sap-ui-libs="sap.m"
-                                    data-sap-ui-compatVersion="edge"
-                                    data-sap-ui-resourceroots='{"ODATA_TestODATA_TEST": ""}'>
-                        </script>
-                       
                                     <style type="text/css">
     .sidebar    {
         width:300px;
@@ -88,16 +81,6 @@
  
                         <link rel="stylesheet" type="text/css" href="css/style.css">
                         <script type="text/javascript" src="codebird.js"></script>
-                        <script>
-                                    sap.ui.getCore().attachInit(function() {
-                                                new sap.m.Shell({
-                                                            app: new sap.ui.core.ComponentContainer({
-                                                                        height : "10%",
-                                                                        name : "ODATA_TestODATA_TEST"
-                                                            })
-                                                }).placeAt("content");
-                                    });
-                        </script>
                 <script type="text/javascript">
                   function tend() {
                     document.getElementById('my').style.visibility='visible';
